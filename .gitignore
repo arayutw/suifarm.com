@@ -1,3 +1,4 @@
+/.aws/*
 .DS_Store
 
 /node_modules/*
