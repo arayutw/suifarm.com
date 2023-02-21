@@ -72,7 +72,6 @@ class RDS
 
         if (!$pdo) {
             $credentials = Secret::get("/rds/credentials.json");
-
             $pdo = new PDO("mysql:host=" . $credentials["host"] . ";dbname=" . $credentials["dbname"] . ";charset=utf8mb4;", $credentials["user"], $credentials["password"]);
             $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             $pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
