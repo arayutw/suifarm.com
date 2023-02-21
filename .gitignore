@@ -1,5 +1,7 @@
 .DS_Store
 
+/node_modules/*
+
 /ec2/fswatch.sh
 /ec2/rsync.sh
 /ec2/var/www/suifarm.com/lib
