@@ -6,3 +6,4 @@
 /ec2/rsync.sh
 /ec2/var/www/suifarm.com/lib
 /ec2/var/www/suifarm.com/secret
+/ec2/var/www/suifarm.com/document/public_html/test/*
