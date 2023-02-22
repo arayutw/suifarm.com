@@ -1,10 +1,20 @@
-/.aws/*
 .DS_Store
 
+/.aws/*
+/.cloudflare/*
+
 /node_modules/*
+
+/scripts/**/.config
 
 /ec2/fswatch.sh
 /ec2/rsync.sh
 /ec2/var/www/suifarm.com/lib
 /ec2/var/www/suifarm.com/secret
 /ec2/var/www/suifarm.com/document/public_html/test/*
+/ec2/var/www/suifarm.com/document/public_html/styles/*
+/ec2/var/www/suifarm.com/document/public_html/scripts/*
+
+/s3/content/*
+/s3/scripts/*
+/s3/styles/*
