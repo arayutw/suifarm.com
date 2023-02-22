@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "es2020",
+    "sourceMap": true,
+    "baseUrl": "./scripts",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "declarationDir": "./scripts/types",
+    "declaration": true,
+    "lib": [
+      "WebWorker",
+      "dom",
+      "es6"
+    ],
+  },
+  "include": [
+    "scripts/**/*.ts",
+  ]
+}
