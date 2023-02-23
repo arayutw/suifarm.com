@@ -18,3 +18,5 @@
 /s3/content/*
 /s3/scripts/*
 /s3/styles/*
+
+/lambda/**/node_modules/*
